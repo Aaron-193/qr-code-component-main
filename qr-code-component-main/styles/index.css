@@ -20,6 +20,7 @@ body {
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
+    min-height: 100vh;
 }
 .container {
     background-color: var(--color0);
