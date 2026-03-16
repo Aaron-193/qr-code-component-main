@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:wght@300;400;500;600&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --color0: hsl(0, 0%, 100%);
+    --color1: hsl(212, 45%, 89%);
+    --color2: hsl(216, 15%, 48%);
+    --color3: hsl(218, 44%, 22%);
+
+    --fs1: 15px;
+
+    --ff1: "Outfit", "Poppins", "Roboto", sans-serif, Arial;
+
+    --fw400: 400;
+    --fw700: 700;
+}
+body {
+    background-color: var(--color1);
+    font-size: var(--fs1);
+    font-family: var(--ff1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box inherit;
+}
+.container {
+    background-color: var(--color0);
+    padding: 1em;
+    display: flex; 
+    flex-flow: column wrap;
+    max-width: 15rem;
+    border-radius: 0.8em;
+    box-shadow: 0 2px 5px grey
+}
+.qr-code-img, p, .attribution {
+    width: 100%;
+}
+div {
+    text-align: center;
+    color: var(--color2);
+    font-weight: var(--fw400);
+}
+.bold-txt {
+    color: var(--color3);
+    font-weight: var(--fw700);
+}
