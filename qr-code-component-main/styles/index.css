@@ -44,5 +44,5 @@ section {
     font-weight: var(--fw700);
 }
 header h1, h2 {
-    font-size: clamp(1rem, 2vw + .5rem, min(4vw, 45px));
+    font-size: clamp(1rem, 2vw + .5rem, min(10vw, 45px));
 }
