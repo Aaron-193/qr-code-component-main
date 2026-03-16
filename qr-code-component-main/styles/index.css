@@ -24,26 +24,31 @@ body {
 .container {
     background-color: var(--color0);
     font-size: 1rem;
-    padding: clamp(1em, 2vw + 0.5em, 3em);
+    padding: clamp(.75em, 1vw + 0.5em, 3em);
     display: flex; 
     flex-flow: column wrap;
+    min-width: 10rem;
     max-width: 15rem;
     margin: 5vh auto;
     border-radius: 0.8em;
-    box-shadow: 0 2px 5px grey
+    box-shadow: 0 2px 5px grey;  
 }
 .qr-code-img, .info, .attribution {
     width: 100%;
+}
+.qr-code-img {
+    
+    border: 1px solid blue;
+    box-shadow: 0 2px 5px var(--color2);
+    border-radius: 1rem;
 }
 section {
     text-align: center;
     color: var(--color2);
     font-weight: var(--fw400);
 }
-.bold-txt {
+header h1, .bold-txt {
     color: var(--color3);
     font-weight: var(--fw700);
-}
-header h1, h2 {
-    font-size: clamp(1.2rem, 2vw + .5rem, 3rem);
+    font-size: clamp(1rem, 1vw + .5rem, 3rem);
 }
