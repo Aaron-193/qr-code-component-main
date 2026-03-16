@@ -31,7 +31,7 @@ body {
     border-radius: 0.8em;
     box-shadow: 0 2px 5px grey
 }
-.qr-code-img, h2, .attribution {
+.qr-code-img, .info, .attribution {
     width: 100%;
 }
 section {
